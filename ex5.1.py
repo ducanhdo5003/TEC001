@@ -7,3 +7,5 @@ num5 = num1 * num2 * num3
 num6 = num4 / 3
 
 print("Sum: ", num4, "Product: " ,num5 , "Average: ", num6)
+
+
