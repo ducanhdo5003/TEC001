@@ -1,10 +1,8 @@
-print("Length and width of a rectangle:")
-length = float(input("Length: "))
-width = float(input("Width: "))
+def leap_year():
+    year = int(input("Enter a year: "))
 
-num1 = 2 * (length + width)
-num2 = length * width
-
-print("Perimeter and area of the rectangle is:")
-print("Perimeter: ", num1)
-print("Area: ", num2)
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print(year, "is a leap year.")
+    else:
+        print(year, "is not a leap year.")
+leap_year()
