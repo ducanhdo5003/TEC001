@@ -8,3 +8,5 @@ num2 = length * width
 print("Perimeter and area of the rectangle is:")
 print("Perimeter: ", num1)
 print("Area: ", num2)
+
+ 
